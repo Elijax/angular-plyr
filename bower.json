@@ -5,8 +5,12 @@
   },
   "name": "angular-plyr",
   "description": "Angular wrapper for Plyr",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
+  "main": [
+      "dist/angular-plyr.min.js",
+      "dist/angular-plyr.min.css"
+  ],
   "homepage": "https://github.com/linkthrow/angular-plyr",
   "repository": {
     "type": "git",
@@ -28,8 +32,7 @@
   ],
   "dependencies": {
     "angular": "^1.2.10",
-    "angular-mocks": "^1.2.10",
-    "plyr": "^1.8.12"
+    "angular-mocks": "^1.2.10"
   },
   "devDependencies": {
   }
